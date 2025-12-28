@@ -1,0 +1,118 @@
+/* ===============================
+   SECTION
+================================ */
+.projects-section {
+  padding: 100px 24px 120px;
+  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+}
+
+.projects-heading {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 64px;
+  color: #0f172a;
+}
+
+/* ===============================
+   GRID
+================================ */
+.projects-grid {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 36px;
+}
+
+/* ===============================
+   CARD
+================================ */
+.project-card {
+  position: relative;
+  background: #ffffff;
+  padding: 36px 32px;
+  border-radius: 18px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 22px 45px rgba(0, 0, 0, 0.14);
+}
+
+/* ===============================
+   GRADIENT ACCENT
+================================ */
+.project-accent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+}
+
+/* ===============================
+   CONTENT
+================================ */
+.project-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #0f172a;
+}
+
+.project-domain {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2563eb;
+  margin-bottom: 14px;
+}
+
+.project-desc {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #475569;
+  margin-bottom: 26px;
+}
+
+/* ===============================
+   BUTTON
+================================ */
+.project-btn {
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+  color: #ffffff;
+  padding: 12px 22px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(37, 99, 235, 0.35);
+}
+
+/* ===============================
+   ENTRANCE ANIMATION
+================================ */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 0.7s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

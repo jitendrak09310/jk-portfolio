@@ -1,0 +1,19 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #020617; /* same dark theme */
+  border-top: 1px solid #1e293b;
+  padding: 12px 0;
+  text-align: center;
+  z-index: 100;
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+}
