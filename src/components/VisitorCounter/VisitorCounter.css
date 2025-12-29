@@ -1,0 +1,12 @@
+.visitor-counter {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  font-size: 13px;
+  color: #e5e7eb;
+  background: rgba(15, 23, 42, 0.7);
+  padding: 6px 12px;
+  border-radius: 999px;
+  backdrop-filter: blur(6px);
+  z-index: 9999;
+}
