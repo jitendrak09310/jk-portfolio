@@ -10,14 +10,13 @@ import ProjectDetails from "./components/ProjectShowCase/ProjectDetails";
 import Projects from "./components/ProjectShowCase/Projects";
 import BlogLearnings from "./components/BlogLearnings/BlogLearnings";
 import Contact from "./components/Contact/Contact";
-import VisitorCounter from "./components/VisitorCounter/VisitorCounter";
+
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Navbar />
-        {/* <VisitorCounter /> */}
         <CompatibilityPopUp />
         <main className="app-container">
 
